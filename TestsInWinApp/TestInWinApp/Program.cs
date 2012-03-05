@@ -16,6 +16,7 @@ namespace TestInWinApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ProgressBarWithThread());
+            Application.Run(new TestPanelAnimation());
         }
     }
 }
