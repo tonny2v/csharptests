@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
+using Npgsql;
 
 namespace TestInWinApp
 {
@@ -29,8 +30,28 @@ namespace TestInWinApp
                 g.FillRectangle(new SolidBrush(Color.Red), r);
                 Thread.Sleep(50);
             }
-        
 
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DataSet ds = new DataSet();
+            using (NpgsqlConnection conn = new NpgsqlConnection("Server=127.0.0.1;Port=5432;User Id=postgres;Password=wangyiqi;Database=postgis2;"))
+            {
+                NpgsqlCommand cmd = new NpgsqlCommand("select * from road order by gid", conn);
+                
+                NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
+                da.Fill(ds);
+            }
+            listBox1.DataSource = ds.Tables[0];
+            listBox1.DisplayMember = "gid";
+            listBox1.ValueMember = "length";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(listBox1.SelectedValue.ToString());
         }
     }
 }
