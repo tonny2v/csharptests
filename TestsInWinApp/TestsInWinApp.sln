@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInWinApp", "TestInWinApp\TestInWinApp.csproj", "{BA21CA5E-0921-4F2C-8DF8-B02D6AC431AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{A278CEE2-5618-4926-951D-FE3CBE164697}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInConsole", "ConsoleApplication2\TestInConsole.csproj", "{A278CEE2-5618-4926-951D-FE3CBE164697}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution

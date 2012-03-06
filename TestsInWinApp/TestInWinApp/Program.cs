@@ -19,4 +19,5 @@ namespace TestInWinApp
             Application.Run(new TestPanelAnimation());
         }
     }
+        
 }
