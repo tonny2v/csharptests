@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace ConsoleApplication2
 {
-    class Program
+    class NunitTest
     {
         static void Main(string[] args)
         {
@@ -21,7 +21,16 @@ namespace ConsoleApplication2
         {
             Assert.AreEqual(1, 2-1);
             foreach (var i in Enumerable.Range(1,100)){
-            Debug.WriteLine(i);}
+            Debug.WriteLine(i);
+            
+            }
+            Console.WriteLine("some");
+        
+       }
+        [Test]
+        public void Test2()
+        {
+            Assert.AreEqual(1, 1);
         }
     }
 }
