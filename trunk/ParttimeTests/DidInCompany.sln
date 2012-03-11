@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{6EFE4A67-7E32-480D-A1CD-9D629317676A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSUnitTest", "TestProject1\VSUnitTest.csproj", "{6EFE4A67-7E32-480D-A1CD-9D629317676A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B980BB1F-472C-4DC5-9EB0-0B9E0D47DC79}"
 EndProject
@@ -18,7 +18,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Playground", "Playground", 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpmapTest", "SharpmapTest\SharpmapTest.csproj", "{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{84EA3D21-3D36-4454-8A17-5F963FB63339}"
+	ProjectSection(SolutionItems) = preProject
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\BruTile.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\BruTile.dll
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.dll
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.xml = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.xml
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\ProjNet.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\ProjNet.dll
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\ProjNet.xml = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\ProjNet.xml
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.dll
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.dll
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.XML = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.XML
+		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.xml = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.xml
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -68,13 +87,26 @@ Global
 		{C84B765B-43D2-4621-8722-9DB42667419E}.Release|Mixed Platforms.Build.0 = Release|x86
 		{C84B765B-43D2-4621-8722-9DB42667419E}.Release|x86.ActiveCfg = Release|x86
 		{C84B765B-43D2-4621-8722-9DB42667419E}.Release|x86.Build.0 = Release|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Debug|x86.ActiveCfg = Debug|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Debug|x86.Build.0 = Debug|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Release|Any CPU.ActiveCfg = Release|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Release|x86.ActiveCfg = Release|x86
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB} = {B980BB1F-472C-4DC5-9EB0-0B9E0D47DC79}
+		{84EA3D21-3D36-4454-8A17-5F963FB63339} = {B980BB1F-472C-4DC5-9EB0-0B9E0D47DC79}
 		{4FA284EB-274E-485B-B08E-B191DDB40AC1} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
 		{C84B765B-43D2-4621-8722-9DB42667419E} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
 		{C52522BF-22F9-43B9-A6D4-2F97FE7866E0} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
+		{6EFE4A67-7E32-480D-A1CD-9D629317676A} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
 	EndGlobalSection
 EndGlobal
