@@ -38,8 +38,14 @@
     <Reference Include="BruTile">
       <HintPath>Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\BruTile.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\packages\Npgsql.2.0.11\lib\Net40\Mono.Security.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\packages\Npgsql.2.0.11\lib\Net40\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="ProjNet">
       <HintPath>Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\ProjNet.dll</HintPath>
@@ -60,6 +66,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsExplorer">
+      <HintPath>Dependencies\WindowsExplorer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestCustomGeometry.cs">
@@ -83,7 +92,10 @@
     <EmbeddedResource Include="TestCustomGeometry.resx">
       <DependentUpon>TestCustomGeometry.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,6 +105,150 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14_N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\114295_30685_64_session_switch_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddTableHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B Icon v2-1 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_example.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brush %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock_run.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DATABASE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditTableHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ks_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_controls_light_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-playback-start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-playback-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewRandomGeometry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictogram_voting_redirect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIE DIAGRAM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play-1-Normal-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polygon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\query.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh[1].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Women.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Women_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom In %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom In.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom Out %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom Out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomToExtents.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
