@@ -23,6 +23,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{84EA3D21-3D36-4454-8A17-5F963FB63339}"
 	ProjectSection(SolutionItems) = preProject
 		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\BruTile.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\BruTile.dll
+		C:\Users\Tonny\Desktop\ribbon\Fluent Ribbon Control Suite 2.0\.NET 4.0\Assembly\Release\Fluent.dll = C:\Users\Tonny\Desktop\ribbon\Fluent Ribbon Control Suite 2.0\.NET 4.0\Assembly\Release\Fluent.dll
 		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.dll
 		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.xml = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\Newtonsoft.Json.xml
 		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\ProjNet.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\ProjNet.dll
@@ -31,6 +32,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencie
 		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.dll = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.dll
 		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.XML = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.UI.XML
 		SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.xml = SharpmapTest\Dependencies\SharpMap-0.9-AnyCPU-trunk-120204\SharpMap.xml
+		SharpmapTest\Dependencies\WindowsExplorer.dll = SharpmapTest\Dependencies\WindowsExplorer.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{5578F790-3FE5-4AE9-B8B6-D1AFE9EFF2A8}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\SharpMap桌面图标\114295_30685_64_session_switch_icon.png = Resources\SharpMap桌面图标\114295_30685_64_session_switch_icon.png
+		Resources\SharpMap桌面图标\12_L.png = Resources\SharpMap桌面图标\12_L.png
+		Resources\SharpMap桌面图标\14_N.png = Resources\SharpMap桌面图标\14_N.png
+		Resources\SharpMap桌面图标\AddTableHS.png = Resources\SharpMap桌面图标\AddTableHS.png
+		Resources\SharpMap桌面图标\B Icon v2-1 (2).jpg = Resources\SharpMap桌面图标\B Icon v2-1 (2).jpg
+		Resources\SharpMap桌面图标\background_example.jpg = Resources\SharpMap桌面图标\background_example.jpg
+		Resources\SharpMap桌面图标\Brush (1).png = Resources\SharpMap桌面图标\Brush (1).png
+		Resources\SharpMap桌面图标\brush.png = Resources\SharpMap桌面图标\brush.png
+		Resources\SharpMap桌面图标\Chat.png = Resources\SharpMap桌面图标\Chat.png
+		Resources\SharpMap桌面图标\clock_run.png = Resources\SharpMap桌面图标\clock_run.png
+		Resources\SharpMap桌面图标\DATABASE.png = Resources\SharpMap桌面图标\DATABASE.png
+		Resources\SharpMap桌面图标\download.png = Resources\SharpMap桌面图标\download.png
+		Resources\SharpMap桌面图标\ks_color.png = Resources\SharpMap桌面图标\ks_color.png
+		Resources\SharpMap桌面图标\media-playback-start.png = Resources\SharpMap桌面图标\media-playback-start.png
+		Resources\SharpMap桌面图标\media-playback-stop.png = Resources\SharpMap桌面图标\media-playback-stop.png
+		Resources\SharpMap桌面图标\media_controls_light_pause.png = Resources\SharpMap桌面图标\media_controls_light_pause.png
+		Resources\SharpMap桌面图标\move.png = Resources\SharpMap桌面图标\move.png
+		Resources\SharpMap桌面图标\NewRandomGeometry.png = Resources\SharpMap桌面图标\NewRandomGeometry.png
+		Resources\SharpMap桌面图标\pan.png = Resources\SharpMap桌面图标\pan.png
+		Resources\SharpMap桌面图标\Pictogram_voting_redirect.png = Resources\SharpMap桌面图标\Pictogram_voting_redirect.png
+		Resources\SharpMap桌面图标\PIE DIAGRAM.png = Resources\SharpMap桌面图标\PIE DIAGRAM.png
+		Resources\SharpMap桌面图标\Play-1-Normal-icon.png = Resources\SharpMap桌面图标\Play-1-Normal-icon.png
+		Resources\SharpMap桌面图标\polygon.png = Resources\SharpMap桌面图标\polygon.png
+		Resources\SharpMap桌面图标\query.png = Resources\SharpMap桌面图标\query.png
+		Resources\SharpMap桌面图标\Raster.png = Resources\SharpMap桌面图标\Raster.png
+		Resources\SharpMap桌面图标\refresh[1].png = Resources\SharpMap桌面图标\refresh[1].png
+		Resources\SharpMap桌面图标\RemoveTable.png = Resources\SharpMap桌面图标\RemoveTable.png
+		Resources\SharpMap桌面图标\sales.png = Resources\SharpMap桌面图标\sales.png
+		Resources\SharpMap桌面图标\settings.png = Resources\SharpMap桌面图标\settings.png
+		Resources\SharpMap桌面图标\start.png = Resources\SharpMap桌面图标\start.png
+		Resources\SharpMap桌面图标\system-map.png = Resources\SharpMap桌面图标\system-map.png
+		Resources\SharpMap桌面图标\tool.png = Resources\SharpMap桌面图标\tool.png
+		Resources\SharpMap桌面图标\tools.png = Resources\SharpMap桌面图标\tools.png
+		Resources\SharpMap桌面图标\Women.png = Resources\SharpMap桌面图标\Women.png
+		Resources\SharpMap桌面图标\Women_1.png = Resources\SharpMap桌面图标\Women_1.png
+		Resources\SharpMap桌面图标\Zoom In (1).png = Resources\SharpMap桌面图标\Zoom In (1).png
+		Resources\SharpMap桌面图标\Zoom In.png = Resources\SharpMap桌面图标\Zoom In.png
+		Resources\SharpMap桌面图标\Zoom Out (1).png = Resources\SharpMap桌面图标\Zoom Out (1).png
+		Resources\SharpMap桌面图标\Zoom Out.png = Resources\SharpMap桌面图标\Zoom Out.png
+		Resources\SharpMap桌面图标\ZoomToExtents.png = Resources\SharpMap桌面图标\ZoomToExtents.png
 	EndProjectSection
 EndProject
 Global
@@ -102,11 +148,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{4FA284EB-274E-485B-B08E-B191DDB40AC1} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
+		{C52522BF-22F9-43B9-A6D4-2F97FE7866E0} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
+		{C84B765B-43D2-4621-8722-9DB42667419E} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
+		{6EFE4A67-7E32-480D-A1CD-9D629317676A} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
 		{BAD30DE0-99D9-419B-8E06-63C7FCCF6FEB} = {B980BB1F-472C-4DC5-9EB0-0B9E0D47DC79}
 		{84EA3D21-3D36-4454-8A17-5F963FB63339} = {B980BB1F-472C-4DC5-9EB0-0B9E0D47DC79}
-		{4FA284EB-274E-485B-B08E-B191DDB40AC1} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
-		{C84B765B-43D2-4621-8722-9DB42667419E} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
-		{C52522BF-22F9-43B9-A6D4-2F97FE7866E0} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
-		{6EFE4A67-7E32-480D-A1CD-9D629317676A} = {A375DED7-1CB0-4B3F-8181-16AAAFBD3E45}
+		{5578F790-3FE5-4AE9-B8B6-D1AFE9EFF2A8} = {B980BB1F-472C-4DC5-9EB0-0B9E0D47DC79}
 	EndGlobalSection
 EndGlobal
